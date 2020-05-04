@@ -9,13 +9,12 @@ ifstream fin2("datensumme.txt");
 ofstream mout("mittelwerte.txt");
 ofstream vout("varianzen.txt");
 
-double Gesamtmittelwert;
-double Gesamtvarianz; 
+double Gesamtmittelwert=0;
+double Gesamtvarianz=0; 
 
-for(double n=1; n<=234/9; ++n) {
+for(int n=1; n<=234/9; ++n) {
 double summand = 0;
 double sum = 0;
-
 
 
   for(double m=1; m<=9; ++m) {
@@ -29,8 +28,7 @@ double mittelwert = summand/9;
 mout << "Mittelwert = " << mittelwert << endl;
 
 
-
-for(double m=1; n<=9; ++n) {
+for(double m=1; m<=9; ++m) {
   double a_m;
   fin2 >> a_m;
   sum += (a_m-mittelwert)*(a_m-mittelwert);
@@ -40,7 +38,6 @@ for(double m=1; n<=9; ++n) {
 double varianz = sum/9;
 
 vout << "Varianz = " << varianz << endl;
-
 
 
 Gesamtmittelwert += (mittelwert*9)/234;
@@ -56,5 +53,3 @@ fin2.close();
 mout.close();
 vout.close();
 }
-
-//Bei den Varianzen stimmt leider noch etwas nicht und der Gesamtmittelwert ist offensichtlich falsch. 
