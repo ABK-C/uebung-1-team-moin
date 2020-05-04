@@ -1,0 +1,19 @@
+Mittelwert = 2.55556
+Mittelwert = 2.44444
+Mittelwert = 3.77778
+Mittelwert = 2.66667
+Mittelwert = 3
+Mittelwert = 3.55556
+Mittelwert = 3
+Mittelwert = 3.55556
+Mittelwert = 3.44444
+Mittelwert = 3.11111
+Mittelwert = 3.55556
+Mittelwert = 4
+Mittelwert = 2
+Mittelwert = 2.66667
+Mittelwert = 2.66667
+Mittelwert = 2.55556
+Mittelwert = 3.11111
+
+Gesamtmittelwert: 1.98718

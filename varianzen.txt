@@ -1,0 +1,19 @@
+Varianz = 1.58025
+Varianz = 0
+Varianz = 0
+Varianz = 0
+Varianz = 0
+Varianz = 0
+Varianz = 0
+Varianz = 0
+Varianz = 0
+Varianz = 0
+Varianz = 0
+Varianz = 0
+Varianz = 0
+Varianz = 0
+Varianz = 0
+Varianz = 0
+Varianz = 0
+
+Gesamtvarianz: 2.31469
