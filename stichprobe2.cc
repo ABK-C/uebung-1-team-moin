@@ -53,3 +53,9 @@ fin2.close();
 mout.close();
 vout.close();
 }
+
+//Es ist zu sehen, dass die Mittelwerte übereinstimmen,
+//was auch zu erwarten war.
+//Die Varianzen hingegen unterscheiden sich,
+//da sie nun aus den Mittelwerten der 9 Zahlen berechnet werden
+//und diese sich natürlich vom Gesamtmittelwert unterscheiden.
